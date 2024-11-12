@@ -1,0 +1,38 @@
+.projects {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-item {
+    margin-bottom: 20px;
+  }
+  
+  .project-item h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .project-item p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .project-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  

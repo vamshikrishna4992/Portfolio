@@ -1,0 +1,42 @@
+/* Style for the navbar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is above other content */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Optional: Add active class styling */
+  nav ul li a.active {
+    font-weight: bold;
+  }
+  
+  /* Add padding to the body to account for the navbar's height */
+  body {
+    margin-top: 50px; /* Adjust based on your navbar height */
+  }
+  
+  main {
+    padding-top: 20px;
+  }
+  
